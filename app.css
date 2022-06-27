@@ -1,7 +1,4 @@
 header, footer {
-    /* background-color:#47A8BD ; */
-    /* color: maroon; */
-    
     text-align: center;
     color: White;
 }
@@ -19,6 +16,7 @@ body {
     flex-direction:column;
     justify-content: space-between;
 }
+
 .logo{
     width: 350px;
 }
@@ -27,7 +25,6 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     font-weight: bold;
     text-align: center;
     list-style-position: inside;
@@ -35,27 +32,22 @@ aside {
     background-position: 0;
     background-repeat: no-repeat;
     background-size: contain;
-
     width:500px;
     height: 600px;
-    margin: 20px;
-    
-  
-  
-   
+    margin: 20px;   
 }
-.list-group{
 
+.list-group{
     max-width: 350px;
     margin:auto
 }
 
 
-button{background-color: transparent;
-color:white;
-border:0;
-font-weight: 600;
-
+button{
+    background-color: transparent;
+    color:white;
+    border:0;
+    font-weight: 600;
 }
 
 .buttons li {
@@ -96,12 +88,10 @@ li {
 .modal-container{
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    
+    background-color: rgba(0, 0, 0, 0.5);    
     position: absolute;
     top:0;
     z-index:5;
-    /* visibility: collapse; */
     display: none;
      
 }
@@ -110,10 +100,10 @@ li {
     width: 100px;
     text-align: center;
 }
+
 .bg-container{
     position:relative;
     top: 30%;
-  
     width: 600px;
     height:400px;
     background-image: url(images/theblackboard_awesome.jpg);
@@ -129,18 +119,15 @@ li {
 
 .content{
     text-align: center;
- 
-    color:white;
-    
+    color:white;    
 }
 
 h1, h2 {
     font-weight: 700;
     font-size: 2em;
-    /* font-style: italic; */
     color:white;
-
 }
-h4{
+
+h4, h6 {
     color: rgb(230, 224, 224);
 }
