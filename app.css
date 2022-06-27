@@ -1,0 +1,146 @@
+header, footer {
+    /* background-color:#47A8BD ; */
+    /* color: maroon; */
+    
+    text-align: center;
+    color: White;
+}
+
+body {
+    background: url(images/WoodWallBackground.jpg);
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    font-family: palanquin;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.logo{
+    width: 350px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-weight: bold;
+    text-align: center;
+    list-style-position: inside;
+    background-image: url(images/theblackboard_awesome2.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width:500px;
+    height: 600px;
+    margin: 20px;
+    
+  
+  
+   
+}
+.list-group{
+
+    max-width: 350px;
+    margin:auto
+}
+
+
+button{background-color: transparent;
+color:white;
+border:0;
+font-weight: 600;
+
+}
+
+.buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 100px;
+    line-height: 60px;
+    background: linear-gradient(#CC2936, black, #CC2936);
+    border-radius: 10px 15px 15px 10px;
+}
+
+.buttons li a {
+    text-decoration: none;
+    color:#FFFFFF;
+    display: block;
+    background: linear-gradient(#CC2936, black, #CC2936);
+    border-radius: 10px 15px 15px 10px;
+}
+
+.buttons li a:hover {
+    text-decoration: none;
+    color: #CF995F;
+    background-color: #33B5E5;
+    background: linear-gradient(#CC2936, black, #CC2936);
+    border-radius: 10px 15px 15px 10px;
+}
+.transparent-bg{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+li {
+    text-align: left;
+}
+
+.modal-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    position: absolute;
+    top:0;
+    z-index:5;
+    /* visibility: collapse; */
+    display: none;
+     
+}
+
+.modalContent{
+    width: 100px;
+    text-align: center;
+}
+.bg-container{
+    position:relative;
+    top: 30%;
+  
+    width: 600px;
+    height:400px;
+    background-image: url(images/theblackboard_awesome.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    text-align: center;
+ 
+    color:white;
+    
+}
+
+h1, h2 {
+    font-weight: 700;
+    font-size: 2em;
+    /* font-style: italic; */
+    color:white;
+
+}
+h4{
+    color: rgb(230, 224, 224);
+}
