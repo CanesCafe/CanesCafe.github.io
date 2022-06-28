@@ -11,7 +11,7 @@ body {
     position: relative;
     top: 0;
     font-family: palanquin;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
@@ -21,7 +21,7 @@ body {
     width: 350px;
 }
 
-aside {
+.blackboard {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,8 +32,8 @@ aside {
     background-position: 0;
     background-repeat: no-repeat;
     background-size: contain;
-    width:500px;
-    height: 600px;
+    min-width:500px;
+    min-height: 600px;
     margin: 20px;   
 }
 
@@ -50,33 +50,6 @@ button{
     font-weight: 600;
 }
 
-.buttons li {
-    float: left;
-    list-style: none;
-    text-align: center;
-    background-color: #000000;
-    margin-right: 30px;
-    width: 100px;
-    line-height: 60px;
-    background: linear-gradient(#CC2936, black, #CC2936);
-    border-radius: 10px 15px 15px 10px;
-}
-
-.buttons li a {
-    text-decoration: none;
-    color:#FFFFFF;
-    display: block;
-    background: linear-gradient(#CC2936, black, #CC2936);
-    border-radius: 10px 15px 15px 10px;
-}
-
-.buttons li a:hover {
-    text-decoration: none;
-    color: #CF995F;
-    background-color: #33B5E5;
-    background: linear-gradient(#CC2936, black, #CC2936);
-    border-radius: 10px 15px 15px 10px;
-}
 .transparent-bg{
     background-color: rgba(255, 255, 255, 0.116);
 }
@@ -97,7 +70,7 @@ li {
 }
 
 .modalContent{
-    width: 100px;
+    width: 300px;
     text-align: center;
 }
 

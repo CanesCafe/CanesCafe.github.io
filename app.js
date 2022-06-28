@@ -48,7 +48,7 @@ const items = {
 
 
 function onLoad() {
-    // alert("Function onLoad() called");
+    
     document.getElementById("timestamp").innerHTML = Date();
     const buttons = document.querySelectorAll("button");
     let modal= document.querySelector(".modal-container");
@@ -76,13 +76,10 @@ function menuRNG(e) {
         let content= document.querySelector(".content");
         content.classList.add("modalContent");
 
-     
-        // modal.style.visibility= "visible";
         modal.style.display= "block";
         let result=`<h5>${items[menuID].name}</h5>\n<h3>${nameList[winChikDin]}</h3>`;
         content.innerHTML= result;
-        console.log(content);
-        // location.replace("result.html")
+       
 
     }
 }
